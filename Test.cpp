@@ -227,7 +227,7 @@ TEST_CASE ("Good input") {
 TEST_CASE ("Bad input") {
 
 
-            SUBCASE("Mat size") {
+
 //TEST 11
         // even width
         CHECK_THROWS(mat(10, 5, '$', '%'));
@@ -240,10 +240,10 @@ TEST_CASE ("Bad input") {
 //TEST 14
         //negative height
         CHECK_THROWS(mat(1, -11, '$', '%'));
-    }
 
 
-            SUBCASE("Bad symbol") {
+
+
 //TEST 15
         //bad  symbol 1 - '\n'
         CHECK_THROWS(mat(9, 5, '\n', '-'));
@@ -269,7 +269,7 @@ TEST_CASE ("Bad input") {
 //TEST 22
         //bad symbol 2  ' '
         CHECK_THROWS(mat(9, 5, '%', ' '));
-    }
+
 }
 
 

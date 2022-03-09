@@ -12,7 +12,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d65fbcf2-3759-4183-8041-3e7b7fe96597" name="Changes" comment="" />
+    <list default="true" id="d65fbcf2-3759-4183-8041-3e7b7fe96597" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,9 +84,9 @@
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager" selected="Shell Script.grade_utils">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="grade" type="ShConfigurationType" temporary="true">
@@ -136,7 +139,10 @@
       <workItem from="1646663280104" duration="5729000" />
       <workItem from="1646686146523" duration="3650000" />
       <workItem from="1646726436107" duration="55000" />
-      <workItem from="1646739952778" duration="10794000" />
+      <workItem from="1646739952778" duration="10879000" />
+      <workItem from="1646758562130" duration="651000" />
+      <workItem from="1646837670446" duration="86000" />
+      <workItem from="1646844435173" duration="343000" />
     </task>
     <servers />
   </component>
