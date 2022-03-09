@@ -10,7 +10,7 @@ namespace ariel {
     std::string mat(int width, int height, char symbol1, char symbol2) {
 
 
-        //with and height need to be odd
+        //width and height need to be odd
         if (width % 2 == 0 || height % 2 == 0) {
 
             throw std::invalid_argument("Mat size is always odd");
