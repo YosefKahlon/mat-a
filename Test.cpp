@@ -92,22 +92,22 @@ TEST_CASE ("Good input") {
                                                             "&"));
 
 
-//TEST 8
+//TEST 9
 
 
     std::string len = mat(9, 7, '@', '-');
-            CHECK_EQ(nospaces(len).length(), 63);
-
-
-
-
-//TEST 9
-
             CHECK_FALSE(nospaces(len).length() == 10);
 
 
 
-//TEST 10
+
+
+
+
+
+
+
+//TEST 11
 
     std::string mat1 = mat(1, 1, '@', '-');
 
@@ -117,7 +117,7 @@ TEST_CASE ("Good input") {
 
             CHECK_EQ(nospaces(mat1) + nospaces(mat2), ans);
 
-//TEST 11
+//TEST 12
 
             CHECK(nospaces(mat(93, 99, '&', '=')) == nospaces(
             "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&\n"
